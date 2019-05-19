@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  web:
+    image: minkov/django_app:latest
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
