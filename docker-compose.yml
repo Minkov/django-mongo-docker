@@ -2,6 +2,7 @@ version: '3'
 
 services:
   web:
+    build: .
     image: minkov/django_app:latest
     volumes:
       - .:/code

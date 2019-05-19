@@ -26,7 +26,8 @@ SECRET_KEY = 'jy(j9!7b%)s+mn26pqhg!1x*b0hcpd5gh9@#9)(9h&h_x(cnaq'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'ec2-3-120-116-174.eu-central-1.compute.amazonaws.com'
+    'djangoappdemo.tk',
+    'djangoappdemo',
 ]
 
 # Application definition
